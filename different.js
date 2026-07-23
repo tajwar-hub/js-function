@@ -5,6 +5,7 @@ function chowdurify(name) {
 
 const robinChow = chowdurify('Robin');
 // console.log(robinChow);
+
 const shammiChow = chowdurify('Shammi');
 // console.log(shammiChow);
 
@@ -29,6 +30,7 @@ function doubleOrHalf(price, isDouble) {
 
 const myPrice = doubleOrHalf(100, true);
 // console.log('price for Mango People', myPrice);
+
 const leaderPrice = doubleOrHalf(100, false);
 // console.log('price for leaders', leaderPrice)
 
@@ -52,7 +54,9 @@ const student = {
 }
 
 function isStudentAPlus(student){
+
     // console.log('got the student', student)
+    
     const marks = student.marks;
     console.log('his marks', marks);
     if(marks >= 80){

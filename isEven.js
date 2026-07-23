@@ -1,5 +1,7 @@
 function isEven(number) {
+
     console.log(number, 'divided by 2 er vaaagsesh', number % 2);
+    
     if (number % 2 === 0) {
         return true;
     }
@@ -8,5 +10,5 @@ function isEven(number) {
     }
 }
 
-const result = isEven(47)
+const result = isEven(57)
 console.log('is Even', result)

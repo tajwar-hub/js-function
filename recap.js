@@ -1,13 +1,16 @@
-// 1. how to declare function
+// 1. how to declare function 
+
 function firstFunction(){
 
 } 
 
-// 2. how to call a function
+// 2. how to call a function 
+
 firstFunction();
 
 
-// 3. how to deal with parameter
+// 3. how to deal with parameter 
+
 function divide(num1, num2){
     const result = num1 / num2;
     console.log('divide result', result)
@@ -15,7 +18,8 @@ function divide(num1, num2){
 
 divide(500, 8);
 
-// 4. how to deal with return
+// 4. how to deal with return 
+
 function doMath(a, b, c, d){
     const firstSum = a + b;
     const secondSum = c + d;
@@ -26,6 +30,7 @@ function doMath(a, b, c, d){
 
 const result = doMath(4, 8, 16, 24);
 
-// 5. call function with variable
+// 5. call function with variable 
+
 const denominator = 2;
 divide(result, denominator);

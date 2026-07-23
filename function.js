@@ -7,6 +7,7 @@
  */
 
 // function declaration
+
 function fanOnKor() {
     console.log('step-1: walk towards the switch');
     console.log('step-2: press the switch');

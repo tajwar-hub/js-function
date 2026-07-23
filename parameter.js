@@ -5,16 +5,23 @@ function sayHello(name) {
     console.log(name)
 }
 
-// sayHello('Sallu');
+sayHello('Sallu');
+
 const number = 25;
 
-// sayHello('shaku');
+ sayHello('shaku');
 
-if (4 > 5) {
+ let count = 1;
+
+if (6 > 5 && count == 1 ) {
+
+sayHello('shakura');
+count++
 
 }
 
-// sayHello('Ruban')
+console.log(count,number)
+sayHello('Ruban')
 
 
 function add(num1, num2) {
@@ -23,7 +30,7 @@ function add(num1, num2) {
     console.log('total of the provided number', sum);
 }
 
-// add(3, 5);
+add(3, 5);
 add(871, 916)
 
 function sumAll(a, b, c, d) {

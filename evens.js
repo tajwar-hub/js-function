@@ -5,6 +5,7 @@ const numbers = [12, 87, 14, 51, 36, 46];
  * 2. identify even numbers
  * 
 */
+
 const evens = [];
 for(const num of numbers){
     // console.log(num)

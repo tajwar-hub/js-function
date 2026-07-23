@@ -1,9 +1,10 @@
 /**
  * Variable
- * conditionals
- * loop
- * array
- * objects
+ * Conditionals
+ * Loop
+ * Array
+ * String
+ * Objects
  * 
 */
 
