@@ -10,7 +10,7 @@
 function fanOnKor() {
     console.log('step-1: walk towards the switch');
     console.log('step-2: press the switch');
-    console.log('step-3: come back and do whatever you were doing');
+    console.log('step-3: come back and do whatever you were doing \n');
 }
 
 function setTheMosquitoNet(){
@@ -21,3 +21,5 @@ function setTheMosquitoNet(){
 // call the function
 // write the function name and then two first bracket
 fanOnKor();
+
+setTheMosquitoNet();
